@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { ListaComponent } from './lista/lista.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormularioComponent,
-    ListaComponent
+    ListaComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
